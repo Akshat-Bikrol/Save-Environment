@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Save Environment</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4fff4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(to right,#2e7d32,#66bb6a);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+nav{
+    background:#1b5e20;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.hero img{
+    width:90%;
+    max-width:800px;
+    border-radius:10px;
+    margin:20px 0;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 30px;
+    background:#2e7d32;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:40px 20px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.gallery{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.gallery h2{
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.gallery-images{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.gallery-images img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌍 Save Environment</h1>
+    <p>Protect Nature • Save Earth • Secure Our Future</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Importance</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Together We Can Make a Difference</h2>
+
+    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1200&q=80" alt="Green Forest">
+
+    <p>
+        Every small action counts. Plant trees, reduce pollution,
+        save water, and protect wildlife to ensure a greener future.
+    </p>
+
+    <a href="#" class="btn">Join the Mission</a>
+</section>
+
+<section class="container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?auto=format&fit=crop&w=600&q=80" alt="Plant Trees">
+<div class="card-content">
+<h3>🌳 Plant Trees</h3>
+<p>Trees provide oxygen, absorb carbon dioxide, and support biodiversity.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Clean Water">
+<div class="card-content">
+<h3>💧 Save Water</h3>
+<p>Conserving water today ensures enough for future generations.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=600&q=80" alt="Recycling">
+<div class="card-content">
+<h3>♻ Reduce, Reuse & Recycle</h3>
+<p>Reduce waste by recycling and reusing materials whenever possible.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=600&q=80" alt="Solar Energy">
+<div class="card-content">
+<h3>☀ Clean Energy</h3>
+<p>Renewable energy helps reduce pollution and protect our planet.</p>
+</div>
+</div>
+
+</section>
+
+<section class="gallery">
+<h2>🌿 Nature Gallery</h2>
+
+<div class="gallery-images">
+<img src="https://images.unsplash.com/photo-1473773508845-188df298d2d1?auto=format&fit=crop&w=600&q=80" alt="Forest">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80" alt="Mountains">
+<img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Nature">
+</div>
+
+</section>
+
+<footer>
+<p>🌱 "Protect Nature Today for a Better Tomorrow."</p>
+<p>&copy; 2026 Save Environment Campaign</p>
+</footer>
+
+</body>
+</html>
